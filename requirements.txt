@@ -1,0 +1,7 @@
+moviepy
+requests
+streamlit
+aliyun-python-sdk-core
+oss2
+pandas
+dynaconf

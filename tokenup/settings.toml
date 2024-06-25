@@ -1,0 +1,5 @@
+[token-up]
+
+[dify]
+base_url = "https://api.hackathon.difyai.com/v1"
+workflow_url ="https://api.hackathon.difyai.com/v1/workflows/run"
