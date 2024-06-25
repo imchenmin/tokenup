@@ -9,7 +9,7 @@ from tokenup.config import settings
 
 
 def run_dify_video_understand_workflow(transcription,task_id, oss_path, video_title):
-    api_key = settings['dify']['dify_workflow_api']
+    api_key = settings['dify-secret']['dify_workflow_api']
     headers = {"Content-Type": "application/json", "Authorization": f"Bearer {api_key}"}
     data = {
         "inputs": {
