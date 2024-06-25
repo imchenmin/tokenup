@@ -3,6 +3,6 @@
 
 WIP...
 正在开发中
-
-from 2024 funder park ai hackathon.
+[项目看板](https://trello.com/b/Icuef1ga/)
+> from 2024 funder park ai hackathon.
 to maybe future.
