@@ -19,10 +19,13 @@ https://github.com/imchenmin/tokenup/assets/20356658/f2fabb62-c0a4-4103-bb90-bab
    ```
    pip install -r requirements.txt
    ```
-4. 设置配置文件：.secret_template.toml，将其重命名为.secret.toml并按需配置api。
+4. 设置配置文件：.secret_template.toml，将其重命名为.secret.toml
    具体步骤详见[配置文件介绍](docs/配置文件介绍.md)
-5. 安装依赖
-6. 运行
+5. 设置dify工作流
+6. 设置moonshot api
+7. 设置阿里云 api
+8. 设置飞书机器人
+9. 运行
    ```bash
    streamlit run main.py
    ```
