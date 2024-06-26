@@ -8,20 +8,24 @@ to maybe future.
 
 https://github.com/imchenmin/tokenup/assets/20356658/f2fabb62-c0a4-4103-bb90-bab95c51843f
 
-## 安装指南
-### 安装方法I：直接运行（Windows，MacOS）
+## 使用
+### 运行方法：终端运行（Windows，MacOS）
 1. 下载项目
-2. 配置环境变量
-   具体步骤详见[配置文件介绍](docs/配置文件介绍.md)
-3. 安装依赖
-4. 运行
-   ```bash
-   python main.py
    ```
-
-
-### 安装方法II：使用 Docker
-### 安装方法III：其他部署方法
+   git clone https://github.com/imchenmin/tokenup.git
+   cd tokenup
+   ```
+2. 安装依赖文件
+   ```
+   pip install -r requirements.txt
+   ```
+4. 设置配置文件：.secret_template.toml，将其重命名为.secret.toml并按需配置api。
+   具体步骤详见[配置文件介绍](docs/配置文件介绍.md)
+5. 安装依赖
+6. 运行
+   ```bash
+   streamlit run main.py
+   ```
 
 ## 特性列表
 1. [x] AI视频总结（基于通义听悟+moonshot 128k llm）
@@ -29,9 +33,4 @@ https://github.com/imchenmin/tokenup/assets/20356658/f2fabb62-c0a4-4103-bb90-bab
 3. [ ] 内建多模态知识库
 
 ## 开发
-项目技术栈：Streamlit + 
-
-
-
-
-## 使用协议
+项目技术栈：Streamlit + DIFY + MoonShot API + 飞书 + 通义听悟
